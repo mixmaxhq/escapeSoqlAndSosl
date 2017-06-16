@@ -1,6 +1,6 @@
 {
   "name": "escape-soql-and-sosl",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Escape Salesforce SOQL and SOSL",
   "main": "index.js",
   "scripts": {
