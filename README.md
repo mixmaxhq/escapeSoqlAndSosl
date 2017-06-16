@@ -5,13 +5,13 @@ Escape Salesforce SOQL queries and SOSL searches. Can be used standalone or in c
 ### Installation
 
 ```
-> npm install --save-dev escapeSoqlAndSosl
+> npm install --save-dev escape-soql-and-sosl
 ```
 
 ### Usage
 
 ```js
-const {escapeSOQL, escapeSOSL} = require('escapeSoqlAndSosl');
+const {escapeSOQL, escapeSOSL} = require('escape-soql-and-sosl');
 const jsforce = require('jsforce');
 
 const conn = ...

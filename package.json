@@ -1,0 +1,22 @@
+{
+  "name": "escape-soql-and-sosl",
+  "version": "0.0.0",
+  "description": "Escape Salesforce SOQL and SOSL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmaxhq/escapeSoqlAndSosl.git"
+  },
+  "keywords": [
+    "salesforce"
+  ],
+  "author": "Randall Ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmaxhq/escapeSoqlAndSosl/issues"
+  },
+  "homepage": "https://github.com/mixmaxhq/escapeSoqlAndSosl#readme"
+}
