@@ -4,7 +4,8 @@
   "description": "Escape Salesforce SOQL and SOSL",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/mixmaxhq/escapeSoqlAndSosl/issues"
   },
-  "homepage": "https://github.com/mixmaxhq/escapeSoqlAndSosl#readme"
+  "homepage": "https://github.com/mixmaxhq/escapeSoqlAndSosl#readme",
+  "devDependencies": {
+    "eslint": ">=3",
+    "eslint-config-mixmax": "^0.6.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
 }
