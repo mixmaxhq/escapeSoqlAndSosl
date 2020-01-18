@@ -4,8 +4,9 @@
   "description": "Escape Salesforce SOQL and SOSL",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "lint": "eslint ."
+    "ci": "npm run lint && npm test",
+    "lint": "eslint .",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
