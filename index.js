@@ -23,5 +23,5 @@ module.exports = {
    *
    * @returns {String} escapedString
    */
-  escapeSOSL: (str) => str.replace(/([?&|!{}[\]()^~*:\\"'+-])/g, '\\$&')
+  escapeSOSL: (str) => str.replace(/([?&|!{}[\]()^~*:\\"'+-])/g, '\\$&'),
 };
