@@ -22,9 +22,11 @@
   },
   "homepage": "https://github.com/mixmaxhq/escapeSoqlAndSosl#readme",
   "devDependencies": {
-    "eslint": ">=3",
-    "eslint-config-mixmax": "^0.6.0",
-    "pre-commit": "^1.2.2"
+    "@mixmaxhq/prettier-config": "^1.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-mixmax": "^4.6.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.19.1"
   },
   "pre-commit": [
     "lint"
